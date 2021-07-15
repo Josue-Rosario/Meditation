@@ -1,8 +1,22 @@
+ @media (min-width: 600px) {
+        body {
+          background-color: #008080;
+        }
+      }
+
+      @media (max-width: 599px) {
+        body {
+          background-color:#008080;
+
+        }
+      }
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 
 .app {
     height: 100vh;
@@ -86,4 +100,5 @@ video {
 .sound-picker button img {
     height: 100%;
 }
+
 
